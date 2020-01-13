@@ -7,7 +7,7 @@ class Plugin extends ConverterComponent {
   @Option({
     name: 'message',
     help: 'outputs a message',
-  } as any)
+  })
   _message!: string;
 }
 
